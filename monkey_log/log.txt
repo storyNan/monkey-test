@@ -1,0 +1,8 @@
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+    // activityResuming(com.xinghuowx.wx.debug)
+    // activityResuming(com.xinghuowx.wx.debug)
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Events injected: 1000
+## Network stats: elapsed time=3495ms (0ms mobile, 0ms wifi, 3495ms not connected)

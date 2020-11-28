@@ -2,9 +2,7 @@ import configparser
 
 class cconfigparser(object):
     def __init__(self, config_path):
-        self.fpath = 'F:\\python\\selenium-python\\python-selenium2\\monkey_test\\monkey_log\\log.txt'
-        self.package_name = 'com.xinghuowx.wx.debug'
-        self.cmd = 'adb shell monkey -p {} 10 > {}'.format(self.package_name, self.fpath)
+        self.fpath = config_path
         self.cf = configparser.ConfigParser()
         self.cf.read(self.fpath, encoding='UTF-8')
 
@@ -54,6 +52,5 @@ class cconfigparser(object):
         return self.cf.options(section)
 
 if __name__ == '__main__':
-    config_file = 'F:\\python\\selenium-python\\python-selenium2\\monkey_test\\config.ini'
+    config_file = 'F:\\python\\monkey_test\\config.ini'
     c = cconfigparser(config_file)
-    print(c)
